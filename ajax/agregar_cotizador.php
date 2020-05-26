@@ -83,8 +83,8 @@ if (isset($_GET['id']))//codigo elimina un elemento del array
 	<label for="condiciones" class="col-md-2 control-label">Condiciones de pago:</label>
 	<div class="col-md-3">
 		<select class="form-control" id="condiciones">
-			<option value='Contado'>Contado</option>
-			<option value='Crédito 30 días'>Crédito 30 días</option>
+			<option value='Contado'>Contado contra entrega</option>
+			<option value='Previo depósito'>Previo depósito</option>
 			<option value='Crédito 45 días'>Crédito 45 días</option>
 			<option value='Crédito 60 días'>Crédito 60 días</option>
 			<option value='Crédito 90 días'>Crédito 90 días</option>

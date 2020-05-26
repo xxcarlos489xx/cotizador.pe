@@ -1,2 +1,4 @@
 config/db.php
 modelos/conexion.php
+ajax/error_log
+error_log
