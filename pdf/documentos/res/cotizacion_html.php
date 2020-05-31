@@ -24,7 +24,7 @@
 		<tr>
 
 			<td style="width: 25%; color: #444444;">
-				<img style="width: 100%;" src="../../img/logo.jpg" alt="Logo"><br>
+				<img style="width:80%;" src="../../img/logo.jpg" alt="Logo"><br>
 
 			</td>
 			<td style="width: 75%;text-align:right">
