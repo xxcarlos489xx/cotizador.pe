@@ -18,9 +18,9 @@
 			<div class="col-md-3">
 				<input type="text" class="form-control" id="empresa" placeholder="Nombre de la empresa">
 			</div>
-			<label for="tel2" class="col-md-1 control-label">Teléfono:</label>
+			<label for="tel2" class="col-md-1 control-label">Nro. RUC:</label>
 			<div class="col-md-2">
-				<input type="text" class="form-control" id="tel2" placeholder="Teléfono empresa">
+				<input type="text" class="form-control" id="tel2" placeholder="Ingrese número">
 			</div>
 			<label for="email" class="col-md-1 control-label">Email:</label>
 			<div class="col-md-3">

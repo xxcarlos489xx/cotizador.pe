@@ -61,7 +61,7 @@
 
 			<td style="width:15%; ">Empresa:</td>
 			<td style="width:50%"><?php echo $empresa; ?></td>
-			<td style="width:15%;text-align:right"> Teléfono:</td>
+			<td style="width:15%;text-align:right"> Nro. RUC:</td>
 			<td style="width:20%">&nbsp; <?php echo $tel2; ?> </td>
 		</tr>
 		<tr>
