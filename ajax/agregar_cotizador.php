@@ -100,8 +100,16 @@ if (isset($_GET['id']))//codigo elimina un elemento del array
 			<option value='60 días'>60 días</option>
 		</select>
 	</div>
-	<label for="entrega" class="col-md-1 control-label">Tiempo:</label>
+	<label for="entrega" class="col-md-1 control-label">Tiempo de entrega:</label>
 	<div class="col-md-2">
 		<input type="text" class="form-control" id="entrega" placeholder="Tiempo de entrega" value="Inmediato">
 	</div>
+	
 </div>
+<div class="form-group row">
+	<label for="observaciones" class="col-md-2 control-label">Observaciones:</label>
+	<div class="col-md-6">
+		<input type="text" class="form-control" id="observaciones" placeholder="Ingrese letras/números" value="">
+	</div>
+</div>
+

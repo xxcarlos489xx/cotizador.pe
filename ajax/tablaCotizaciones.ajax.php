@@ -48,7 +48,8 @@ class TablaProductos{
           "'.$productos[$i]["tel2"].'",
           "'.$productos[$i]["condiciones"].'",
           "'.$productos[$i]["validez"].'",
-          "'.$productos[$i]["entrega"].'"
+          "'.$productos[$i]["entrega"].'",
+          "'.$productos[$i]["observaciones"].'"
 			],';
 
 		}

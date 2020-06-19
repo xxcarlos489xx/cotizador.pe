@@ -30,6 +30,8 @@
 	$condiciones=$_GET['condiciones'];
 	$validez=$_GET['validez'];
 	$entrega=$_GET['entrega'];
+	$observaciones=$_GET['observaciones'];
+
 	//Fin de variables por GET
 	$sql_cotizacion=mysqli_query($con, "select LAST_INSERT_ID(numero_cotizacion) as last from cotizaciones_demo order by id_cotizacion desc limit 0,1 ");
 	$rwC=mysqli_fetch_array($sql_cotizacion);

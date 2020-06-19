@@ -150,6 +150,8 @@
 		var condiciones = $("#condiciones").val();
 		var validez = $("#validez").val();
 		var entrega = $("#entrega").val();
-		VentanaCentrada('./pdf/documentos/cotizacion_pdf.php?atencion='+atencion+'&tel1='+tel1+'&empresa='+empresa+'&tel2='+tel2+'&email='+email+'&condiciones='+condiciones+'&validez='+validez+'&entrega='+entrega,'Cotizacion','','1024','768','true');
+		var observaciones = $("#observaciones").val();
+
+		VentanaCentrada('./pdf/documentos/cotizacion_pdf.php?atencion='+atencion+'&tel1='+tel1+'&empresa='+empresa+'&tel2='+tel2+'&email='+email+'&condiciones='+condiciones+'&validez='+validez+'&entrega='+entrega+'&observaciones='+observaciones,'Cotizacion','','1024','768','true');
 	});
 </script>

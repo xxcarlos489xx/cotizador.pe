@@ -147,6 +147,10 @@
 		<td style="width:50%;text-align:right">Tiempo de entrega: </td>
 		<td style="width:50%; ">&nbsp;<?php echo $entrega; ?></td>
 	</tr>
+	<tr>
+		<td style="width:50%;text-align:right">Observaciones: </td>
+		<td style="width:50%; ">&nbsp;<?php echo $observaciones; ?></td>
+	</tr>
 </table>
 <br><br><br><br>
 
